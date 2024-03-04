@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.7 ) url(image/isi_pic.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fefefe;
+    
+    
+  }
+  
+  
+  header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1) url("image/head.jpeg");
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    padding: 2px 20px;
+    align-items: stretch;
+    display: flex;
+    
+
+  }
+ 
+
+
+  .firsthalf{
+    width: 30%;
+    justify-content: center;
+    
+    
+}
+
+.firsthalf img{
+  width: 30%;
+  margin: auto;
+}
+
+.secondhalf{
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.text-big{
+  font-size: 30px;
+}
+ 
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  
+  section {
+    margin-bottom: 20px;
+  }
+  .logo img{
+    
+    justify-content: right;
+    align-items: right;
+    height: 50px;
+    width: 50px;
+    
+    
+    
+   
+}
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+
+   
+  }
+  .apply-button {
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .apply-button:hover {
+    text-align: center;
+    justify-content: center;
+    background-color: #0056b3;
+  }
+  .social-media-logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-media-logo {
+    width: 30px;
+    height: 30px;
+}
