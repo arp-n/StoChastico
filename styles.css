@@ -29,13 +29,14 @@ body {
   .firsthalf{
     width: 30%;
     justify-content: center;
+    margin: auto;
     
     
 }
 
 .firsthalf img{
-  width: 30%;
-  margin: auto;
+  width: 70%;
+  
 }
 
 .secondhalf{
