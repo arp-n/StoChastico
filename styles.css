@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: rgba(0, 0, 0, 0.7 ) url(image/isi_pic.jpeg);
+    background: rgba(0, 0, 0, 0.7 ) url(isi_pic.jpeg);
     background-size: cover;
     background-blend-mode: darken;
     color: #fefefe;
@@ -13,7 +13,7 @@ body {
   
   header {
     text-align: center;
-    background: rgba(0, 0, 0, 0.1) url("image/head.jpeg");
+    background: rgba(0, 0, 0, 0.1) url("head.jpeg");
     background-size: cover;
     background-blend-mode: darken;
     
