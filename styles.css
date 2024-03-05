@@ -13,7 +13,7 @@ body {
   
   header {
     text-align: center;
-    background: rgba(0, 0, 0, 0.1) url("head.jpeg");
+    background: rgba(0, 0, 0, 0.1) url("bg2.jpg");
     background-size: cover;
     background-blend-mode: darken;
     
