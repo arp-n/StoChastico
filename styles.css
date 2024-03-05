@@ -20,6 +20,7 @@ body {
     padding: 2px 20px;
     align-items: stretch;
     display: flex;
+    margin: auto;
     
 
   }
@@ -28,14 +29,13 @@ body {
 
   .firsthalf{
     width: 30%;
-    justify-content: center;
     margin: auto;
     
     
 }
 
 .firsthalf img{
-  width: 50%;
+  width: 30%;
   
 }
 
@@ -47,10 +47,16 @@ body {
   text-align: left;
 }
 .text-big{
-  font-size: 30px;
+  font-size: 50px;
+  justify-content: right;
+  font-style: italic;
+  font-family:Kristen ITC;
 }
  
-  
+.caption{
+  font-style: italic;
+  font-family: Courier New;
+}
   
   main {
     padding: 20px;
@@ -64,8 +70,8 @@ body {
     
     justify-content: right;
     align-items: right;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     
     
     
@@ -103,12 +109,3 @@ body {
     justify-content: center;
     background-color: #0056b3;
   }
-  .social-media-logos {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.social-media-logo {
-    width: 30px;
-    height: 30px;
-}
